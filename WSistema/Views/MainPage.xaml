@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace.WSistema.Models"
+             x:Class="WSistema.Views.MainPage"
+              BackgroundColor="{DynamicResource SecondaryColor}">
+
+
+
+    <AbsoluteLayout Margin="20">
+        <Image Source="chuva.png" MaximumHeightRequest="180" MaximumWidthRequest="150"  AbsoluteLayout.LayoutBounds="5,40"></Image>
+        <Label Text="{Binding intensidadeStr}" FontSize="25" TextColor="#000000" AbsoluteLayout.LayoutBounds="10,190"></Label>
+        <Label Text="Precipitação" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="190,50"></Label>
+        <Label Text="{Binding precipitacao,StringFormat='{0} mm'}" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="190,100"></Label>
+        <Label Text="Humidade" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="190,150"></Label>
+        <Label Text="{Binding humidade,StringFormat='{0}%'}" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="190,200"></Label>
+        <Label Text="Temperatura Max" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="10,300" ></Label>
+        <Label Text="{Binding temp_max,StringFormat='{0}°C'}" FontSize="20" TextColor="#000000" AbsoluteLayout.LayoutBounds="20,340"></Label>
+        <Label Text="Temperatura Min" FontSize="30" TextColor="#000000" AbsoluteLayout.LayoutBounds="10,400" ></Label>
+        <Label Text="{Binding temp_min,StringFormat='{0}°C'}" FontSize="20" TextColor="#000000" AbsoluteLayout.LayoutBounds="20,440"></Label>
+    </AbsoluteLayout>
+    
+</ContentPage>

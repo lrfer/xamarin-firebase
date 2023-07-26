@@ -1,0 +1,1 @@
+C:\Users\lr_fe\source\repos\WSistema\WSistema\WSistema.csproj;x64

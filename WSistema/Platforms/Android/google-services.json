@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "57651838119",
+    "project_id": "wsistemauberlandia",
+    "storage_bucket": "wsistemauberlandia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57651838119:android:a28200c860df9796c9af82",
+        "android_client_info": {
+          "package_name": "com.companyname.wsistema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57651838119-5o995d4phem60i4gdc2lef3ojffletda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeYCUCt_-rnWB7Oi_Q4fULUtpJI-Umnck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57651838119-5o995d4phem60i4gdc2lef3ojffletda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

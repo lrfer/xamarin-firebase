@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="WSistema.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WSistema.Views"
+    Title="Alerta de Chuvas"
+    BackgroundColor="#8CC6FC">
+
+    <TabBar>
+        <Tab Icon="hoje.png" Title="Hoje">
+            <ShellContent
+                Title="Santa Mônica"
+                Route="StMonicaHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Umuarama"
+                Route="UmuHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent 
+                Title="Educação Física"
+                Route="EducaHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+            
+            <ShellContent 
+                Title="Glória"
+                Route="GloriaHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+            
+            <ShellContent
+                Title="Monte Carmelo"
+                Route="MtCarmeloHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Pontal"
+                Route="PontalHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Patos de Minas"
+                Route="PatosHj"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+            
+        </Tab>
+        <Tab Icon="amanha.png" Title="Amanhã">
+
+            <ShellContent
+                Title="Santa Mônica"
+                Route="StMonicaAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Umuarama"
+                Route="UmuAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent 
+                Title="Educação Física"
+                Route="EducaAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent 
+                Title="Glória"
+                Route="GloriaAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Monte Carmelo"
+                Route="MtCarmeloAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Pontal"
+                Route="PontalAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+            <ShellContent
+                Title="Patos de Minas"
+                Route="PatosAmanha"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>
